@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/wormhole-management.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.wormhole-nft]
+path = 'contracts/wormhole-nft.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
